@@ -1,0 +1,26 @@
+.header {
+  position: sticky;
+  top: 0;
+  bottom: 20;
+  position: relative;
+
+  padding: 0 10px;
+
+  height: 100px;
+  background-color: #1c2b35;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu a {
+  text-decoration: none;
+  color: #ffff;
+  margin-left: 30px;
+}
+.menu a hover {
+  color: lightcoral;
+}
+
+.menu {
+  margin-right: 15px;
+}

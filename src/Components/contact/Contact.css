@@ -1,0 +1,31 @@
+.form {
+  width: 400px;
+  border: 1ps solid royalblue;
+  border-radius: 25px;
+  padding: 10;
+  margin-left: 400px;
+  background-color: slategray;
+  text-align:center;
+}
+.form input[type="text"] {
+        margin: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: 1px solid slateblue;
+        padding: 10px;
+        background-color: bisque;
+        color: cadetblue;
+}
+.form input[type="email"]{
+        text-align: center;
+        margin: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: 1px solid slateblue;
+        padding: 10px;
+        background-color: bisque;
+        color: cadetblue;
+        margin-left: 10px;
+
+}
+

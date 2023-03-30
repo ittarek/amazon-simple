@@ -1,0 +1,18 @@
+
+
+.btn-clear{
+        background-color: #FF3030;
+        margin-bottom: 15px;
+
+
+}
+.btn-delete{
+background-color: #FF9900;
+}
+
+.cart{
+        position:sticky;
+        top:0;
+        margin-left: 20px;
+      
+}
