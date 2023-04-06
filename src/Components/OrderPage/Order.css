@@ -1,4 +1,18 @@
-.review-container{
-          margin-bottom: 25px;
-          margin-top: 25px;
+.review-container {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.checkout-btn {
+          color: #FFFFFF;
+  background: #ff9900;
+  border-radius: 4px;
+margin-top: -10px;
+  width: 300px;
+margin-bottom: 10px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+          color: #FFFFFF;;
 }

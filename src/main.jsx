@@ -9,6 +9,8 @@ import Order from "./Components/OrderPage/Order";
 import Inventory from "./InventoryPAge/Inventory";
 import Login from "./Components/Header/LoginPage/Login";
 import cartProductsLoader from "./loaders/cartProductsLoader";
+import ProcedChackOutPage from "./Components/ProchedChackoutPage/ProcedChackOutPage";
+import ReviewOrderPage from "./Components/Shop/reviewOrderPage/ReviewOrderPage";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
       {
         path: "Manage Inventory",
         element: <Inventory></Inventory>,
+      },
+      {
+      path:'/chackout',
+      element:<ProcedChackOutPage></ProcedChackOutPage>
+      },
+      {
+path:'/reviewOrder',
+element :<ReviewOrderPage></ReviewOrderPage>
       },
       {
         path: "Login",

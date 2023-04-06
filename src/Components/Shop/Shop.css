@@ -15,3 +15,15 @@
   background-color: #FFE0B3;
   position: sticky;
 }
+.review-btn{
+  color: #FFFFFF;
+  background: #FF9900;
+  border-radius: 4px;
+ margin-bottom: 10px;
+width:300px;
+margin-top: -10px;
+
+margin-right: 25px;
+display: flex ;
+justify-content:space-between
+}

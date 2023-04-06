@@ -1,18 +1,19 @@
+.btn-clear {
+        color: #FFFFFF;
+  background-color: #ff3030;
 
+  width: 300px;
 
-.btn-clear{
-        background-color: #FF3030;
-        margin-bottom: 15px;
-
-
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
 }
-.btn-delete{
-background-color: #FF9900;
+.btn-delete {
+  background-color: #ff9900;
 }
 
-.cart{
-        position:sticky;
-        top:0;
-        margin-left: 20px;
-      
+.cart {
+  position: sticky;
+  top: 0;
+  margin-left: 20px;
 }
