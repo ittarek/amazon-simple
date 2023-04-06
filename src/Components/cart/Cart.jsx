@@ -8,7 +8,7 @@ const Cart = (props) => {
   let totalShipping = 0;
   let quantity = 0;
 
-  console.log("card add ", cart);
+  // console.log("card add ", cart);
 
   for (const Product of cart) {
     // Product.quantity = Product.quantity || 1;

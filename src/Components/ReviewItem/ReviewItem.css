@@ -1,0 +1,78 @@
+.review-item {
+  width: 571px;
+  height: 107px;
+  border: 1px solid #95a0a7;
+
+  padding: 10px;
+  margin: 25px auto;
+  border-radius: 8px;
+  display: flex;
+}
+.review-item img {
+  width: 91px;
+  height: 91px;
+  border-radius: 6px;
+
+  left: 1.4%;
+  right: 82.66%;
+  top: 7.48%;
+  bottom: 7.48%;
+}
+.review-info {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-grow: 1;
+}
+.review-name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  /* line-height: 25px; */
+  letter-spacing: 0.0015em;
+  /* margin-bottom: -0px; */
+
+  color: #1c2b35;
+}
+.review-price {
+  font-family: "Lato";
+  font-style: normal;
+  /* font-weight: 400; */
+  font-size: 15px;
+  /* line-height: 18px; */
+  /* margin-bottom: -0px; */
+
+  letter-spacing: 0.0025em;
+
+  color: #1c2b35;
+}
+.review-quantity {
+  font-family: "Lato";
+  font-style: normal;
+  /* font-weight: 400; */
+  font-size: 15px;
+  /* line-height: 18px; */
+
+  letter-spacing: 0.0025em;
+
+  color: #2a414f;
+}
+.review-summary p {
+  margin: 0 15px;
+}
+.review-summary {
+  flex-grow: 1;
+}
+.span {
+  color: #ff9900;
+}
+.delete-btn {
+  background: rgba(235, 87, 87, 0.3);
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+}
+.icon-delete {
+  color: #eb5757;
+}

@@ -4,7 +4,7 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import Shop from "./Components/Shop/Shop";
 
-// import Contact from "./Components/contact/Contact";
+import Contact from "./Components/contact/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Shop></Shop>
-      {/* <Contact></Contact> */}
+      <Contact></Contact>
     </div>
   );
 }
